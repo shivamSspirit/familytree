@@ -1,0 +1,96 @@
+.sidebar {
+    width: 380px;
+    padding-top: 3rem
+}
+
+.side-upper-part {
+    border: 1px solid black;
+    height: 70vh;
+    border-radius: 9px;
+}
+
+.family-title {
+    border-bottom: solid black 1px;
+    padding-bottom: 9px;
+}
+
+
+#outlined-basic {
+    height: 1rem;
+    border-radius: 9px;
+}
+
+
+.lists {
+    margin-top: 2rem;
+}
+
+
+.multiple-list-item {
+    display: block;
+}
+
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1.3rem;
+    gap: 18px;
+}
+
+.arrow-down {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    transition: transform .3s;
+    transform: rotate(-90deg);
+}
+
+.list-open .arrow-down {
+    transform: rotate(0deg);
+}
+
+
+.file-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.sub-item {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 0;
+    overflow: hidden;
+}
+
+.list-open.sub-item {
+    height: auto;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.btn-section {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.4rem;
+    background-color: transparent;
+    border: 1.4px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+    padding: 0 !important;
+}

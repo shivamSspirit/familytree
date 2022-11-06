@@ -1,0 +1,30 @@
+.sidepage-block{
+    width: 100%;
+    height: calc(100% - 7.9rem);
+    margin-top: 3rem;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+
+.family-detail-title{
+    border-bottom: solid black 1px;
+    padding-bottom: 9px;
+}
+
+.page-lower-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.data-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-left: 2rem;
+}
+
+.family-photo{
+    width: 300px;
+    height: 250px;
+}
+
